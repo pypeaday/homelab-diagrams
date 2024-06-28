@@ -4,9 +4,9 @@ A repository for housing diagrams, LTAs, and other related images
 
 ## Diagrams
 
-![Applications]()
+<!-- ![Applications]() -->
 
-![Storage]()
+<!-- ![Storage]() -->
 
-![Network]()
+![Firewall](/Home-Firewall.drawio.png)
 
