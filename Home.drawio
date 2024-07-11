@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T13:55:43.639Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="zOT7dV0snyAd1CiMl6Fy" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-11T00:44:09.746Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="xWB7XbGUABrEjb-1Pj0_" version="24.6.4" type="github" pages="2">
   <diagram name="Firewall" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
-    <mxGraphModel dx="1430" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1419" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,35 @@
           <mxGeometry x="420" y="30" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4pkH0n5TeCM1CugvsYnv-2" value="Nic" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.user_male;" parent="Taq88KEqufd_rW_u-Mmz-4" vertex="1">
-          <mxGeometry x="150" y="30" width="30" height="74.84" as="geometry" />
+          <mxGeometry x="60" y="30" width="30" height="74.84" as="geometry" />
+        </mxCell>
+        <mxCell id="PnRXNIRMhMOjnLRFqVWO-1" value="" style="group;fillColor=none;strokeColor=#b46504;" vertex="1" connectable="0" parent="Taq88KEqufd_rW_u-Mmz-4">
+          <mxGeometry x="140" y="15" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PnRXNIRMhMOjnLRFqVWO-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=1;strokeColor=#FF6666;" vertex="1" parent="PnRXNIRMhMOjnLRFqVWO-1">
+          <mxGeometry width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PnRXNIRMhMOjnLRFqVWO-3" value="LANButShouldBeIOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PnRXNIRMhMOjnLRFqVWO-1">
+          <mxGeometry x="-0.002982456140344425" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PnRXNIRMhMOjnLRFqVWO-4" value="Amcrest Doorbell" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;" vertex="1" parent="PnRXNIRMhMOjnLRFqVWO-1">
+          <mxGeometry x="20" y="30" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PnRXNIRMhMOjnLRFqVWO-6" value="Traegar Grill" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fastfood-30/64/chicken-fries-fast-food-fastfood-thigh-grill-128.png" vertex="1" parent="PnRXNIRMhMOjnLRFqVWO-1">
+          <mxGeometry x="160" y="25.5" width="59" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="PnRXNIRMhMOjnLRFqVWO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Taq88KEqufd_rW_u-Mmz-4" source="PnRXNIRMhMOjnLRFqVWO-2" target="Taq88KEqufd_rW_u-Mmz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="-90" />
+              <mxPoint x="285" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnRXNIRMhMOjnLRFqVWO-8" value="&lt;div&gt;DENY */*&lt;/div&gt;&lt;div&gt;Desc: Stop some devices on&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; LAN from connecting to&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;any LAN devices&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PnRXNIRMhMOjnLRFqVWO-7">
+          <mxGeometry x="0.0326" y="1" relative="1" as="geometry">
+            <mxPoint x="-76" y="31" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4pkH0n5TeCM1CugvsYnv-19" value="" style="group;fillColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="20" y="580" width="610" height="230" as="geometry" />
@@ -139,15 +167,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VGItp7bEPMrswfuvoWM3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Taq88KEqufd_rW_u-Mmz-2" target="4pkH0n5TeCM1CugvsYnv-29">
+        <mxCell id="VGItp7bEPMrswfuvoWM3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Taq88KEqufd_rW_u-Mmz-2" target="4pkH0n5TeCM1CugvsYnv-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VGItp7bEPMrswfuvoWM3-2" value="&lt;div&gt;Port/Protocol: */*&lt;/div&gt;&lt;div&gt;Desc: LAN to anything&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VGItp7bEPMrswfuvoWM3-1">
+        <mxCell id="VGItp7bEPMrswfuvoWM3-2" value="&lt;div&gt;Port/Protocol: */*&lt;/div&gt;&lt;div&gt;Desc: LAN to anything&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VGItp7bEPMrswfuvoWM3-1" vertex="1" connectable="0">
           <mxGeometry x="-0.6587" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VGItp7bEPMrswfuvoWM3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Taq88KEqufd_rW_u-Mmz-2" target="4pkH0n5TeCM1CugvsYnv-7">
+        <mxCell id="VGItp7bEPMrswfuvoWM3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Taq88KEqufd_rW_u-Mmz-2" target="4pkH0n5TeCM1CugvsYnv-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="468" y="60" />
@@ -155,12 +183,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VGItp7bEPMrswfuvoWM3-4" value="&lt;div&gt;Port/Protocol: */*&lt;/div&gt;&lt;div&gt;Desc: LAN to anything&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VGItp7bEPMrswfuvoWM3-3">
+        <mxCell id="VGItp7bEPMrswfuvoWM3-4" value="&lt;div&gt;Port/Protocol: */*&lt;/div&gt;&lt;div&gt;Desc: LAN to anything&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VGItp7bEPMrswfuvoWM3-3" vertex="1" connectable="0">
           <mxGeometry x="-0.2392" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VGItp7bEPMrswfuvoWM3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.918;exitY=0.999;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Taq88KEqufd_rW_u-Mmz-2" target="4pkH0n5TeCM1CugvsYnv-10">
+        <mxCell id="VGItp7bEPMrswfuvoWM3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.918;exitY=0.999;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="Taq88KEqufd_rW_u-Mmz-2" target="4pkH0n5TeCM1CugvsYnv-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="563" y="500" />
@@ -169,7 +197,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VGItp7bEPMrswfuvoWM3-8" value="&lt;div&gt;Port/Protocol: */*&lt;/div&gt;&lt;div&gt;Desc: LAN to anything&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VGItp7bEPMrswfuvoWM3-7">
+        <mxCell id="VGItp7bEPMrswfuvoWM3-8" value="&lt;div&gt;Port/Protocol: */*&lt;/div&gt;&lt;div&gt;Desc: LAN to anything&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VGItp7bEPMrswfuvoWM3-7" vertex="1" connectable="0">
           <mxGeometry x="0.3805" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
